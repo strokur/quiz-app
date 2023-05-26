@@ -1,0 +1,62 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  max-width: 600px;
+  margin: 30px 20px;
+  background-color: rgba(255,255,255,1);
+}
+h1,h4 {
+  margin: 10px 0px;
+}
+h4 {
+  margin: 20px 0px;
+}
+#problem {
+  height: 300px;
+}
+#question {
+  margin-bottom: 20px;
+}
+.answers {
+  display: flex;
+  background-color: rgba(241,241,241,1);
+  flex-direction: column;
+  margin: 10px 0px;
+}
+.answer {
+  display: flex;
+  margin: 10px;
+}
+label {
+  padding-left: 20px;
+  height: 30px;
+}
+.score {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  width: 93px;
+  opacity: 50%;
+  display: inline-block;
+  background-color: rgba(82,167,73,1);
+  color: #FFFFFF;
+  padding: 10px 0px;
+  margin: 10px 10px;
+  font-weight: 600;
+  cursor: default;
+  text-align: center;
+}
+.is-active.button{
+  visibility: visible;
+  opacity: 100%;
+}
+.is-active.button:hover {
+  cursor: pointer;
+}

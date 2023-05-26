@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz.css"/>
+    <script src="quiz.js" defer> </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1></h1>
+        </div>
+        <div id="problem">
+            <div id="question">
+            </div>
+            <div class="answers">
+                <div class="answer">
+                    <input type="radio" id="answer1" name="radio-answer" value="a" required/> 
+                    <label id="l1" for="answer1"></label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="answer2" name="radio-answer" value="b" required />
+                    <label id="l2" for="answer2"></label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="answer3" name="radio-answer" value="c" required />
+                    <label id="l3" for="answer3"></label>
+                </div>
+                <div class="answer">
+                    <input type="radio" id="answer4" name="radio-answer" value="d" required />
+                    <label id="l4" for="answer4"></label>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <div class="button" id="backButton">&lt; Back</div>
+            <div class="button" id="nextButton">Next &gt;</div>
+            <div class="button" id="restartButton">Restart</div>
+        </div>
+    </div>
+</body>
+</html>
